@@ -2,7 +2,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using Xunit.Sdk;
 
-namespace Core.Utilities
+namespace XunitPerformanceTest.Utilities
 {
     internal sealed class MethodInfoHelper : ExpressionVisitor
     {

@@ -1,7 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using Core.Attributes;
 using Xunit;
+using XunitPerformanceTest;
+using XunitPerformanceTest.Attributes;
 
 namespace Core.Tests
 {

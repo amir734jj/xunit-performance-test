@@ -2,11 +2,11 @@ using System;
 using System.Diagnostics;
 using System.Linq.Expressions;
 using System.Reflection;
-using Core.Interfaces;
-using Core.Utilities;
-using static Core.Constants.Connection;
+using XunitPerformanceTest.Interfaces;
+using XunitPerformanceTest.Utilities;
+using static XunitPerformanceTest.Constants.Connection;
 
-namespace Core
+namespace XunitPerformanceTest
 {
     public abstract class PerformanceTest<TClass> : IPerformanceTest<TClass> where TClass : class
     {

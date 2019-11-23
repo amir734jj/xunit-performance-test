@@ -2,7 +2,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Reflection;
 
-namespace Core.Constants
+namespace XunitPerformanceTest.Constants
 {
     internal static class Connection
     {

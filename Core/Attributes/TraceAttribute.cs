@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using Core.Extensions;
 using Xunit;
 using Xunit.Sdk;
-using static Core.Constants.Connection;
+using XunitPerformanceTest.Extensions;
+using static XunitPerformanceTest.Constants.Connection;
 
-namespace Core.Attributes
+namespace XunitPerformanceTest.Attributes
 {
     [AttributeUsage(AttributeTargets.Method)]
     public class TraceAttribute : BeforeAfterTestAttribute

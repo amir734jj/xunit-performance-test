@@ -7,6 +7,8 @@
         <PackageProjectUrl>https://github.com/amir734jj/xunit-performance-test</PackageProjectUrl>
         <Version>0.0.1</Version>
         <PackageReleaseNotes>Working state</PackageReleaseNotes>
+        <AssemblyName>xunit-performance-test</AssemblyName>
+        <RootNamespace>XunitPerformanceTest</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

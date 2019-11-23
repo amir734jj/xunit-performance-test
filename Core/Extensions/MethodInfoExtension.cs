@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace Core.Extensions
+namespace XunitPerformanceTest.Extensions
 {
     internal static class MethodInfoExtension
     {
