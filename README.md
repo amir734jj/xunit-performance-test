@@ -1,6 +1,6 @@
 # xUnit-performance-test
 
-Performance test the unit tests to make sure they run in certain time period.
+Performance test the unit tests to make sure they run in certain time period. I wrote this package because I was tired to writing duplicate `StopWatch` code.
 
 ### Use
 - In your unit test class `TClass`, extend the abstract class `PerformanceTest<TClass>`
